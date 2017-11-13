@@ -5,9 +5,14 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Update in progress&hellip;</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <style>
-      * {
+      html {
+        box-sizing: border-box;
+      }
+
+      *, *:before, *:after {
+        box-sizing: inherit;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
       }
@@ -20,7 +25,10 @@
         flex-direction: column;
         font-family: 'Roboto', sans-serif;
         font-size: 18px;
+        font-weight: 400;
         height: 100vh;
+        line-height: 26px;
+        padding: 32px;
         margin: 0;
         justify-content: center;
       }
@@ -34,6 +42,7 @@
       h1 {
         color: #222;
         font-size: 28px;
+        font-weight: 700;
       }
 
       h1::after {
